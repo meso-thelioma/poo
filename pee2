@@ -1,0 +1,29 @@
+{
+  "embeds": [{
+    "color": 6570405,
+    "author":{
+      "name":"{{ChannelName}}",
+      "url":"{{ChannelUrl}}"
+    },
+    "description": "**is now streaming on Twitch**",
+    "fields": [
+      {
+        "name": ":video_game: Game",
+        "value": "{{Game}}",
+        "inline": true
+      },
+      {
+        "name": ":eye: Viewers",
+        "value": "{{CurrentViewers}}",
+        "inline": true
+      }
+    ],
+    "image": {
+      "url": "{{StreamPreview}}"
+    },
+    "footer": {
+      "text": "http://twitch.tv",
+      "icon_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/114142-19c0993bf69c468f1350fd422bfad6b2-medium_jpg.jpg?buster=1410211530"
+    }
+  }]
+}
